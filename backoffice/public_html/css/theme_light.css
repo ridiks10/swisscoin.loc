@@ -1,0 +1,177 @@
+@font-face{font-family:dosis;src:url('../fonts/PTN57F.ttf');}
+
+body, .main-container, .footer, .main-navigation, ul.main-navigation-menu > li > ul.sub-menu, .navigation-small ul.main-navigation-menu > li > ul.sub-menu {
+	background-color: #364150 !important;
+}
+.layout-boxed header, .layout-boxed .main-container, .layout-boxed .footer {
+
+	border-left-color: #364150;
+	border-right-color: #364150;
+}
+.navbar-inverse {
+	background: #2b3643;
+	border-color:#2b3643;
+}
+/* ie8 fixes */
+.ie8 .navbar-inverse {
+	background: #ffffff;
+}
+/**/
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .nav > li > a {
+	color: #7793ad;
+}
+.navbar-inverse .navbar-brand i, .navbar-inverse .navbar-brand:hover i {
+	color: #7793ad;
+}
+
+.navbar-inverse .nav > li > a {
+	color: #7793ad;
+}
+.navbar-inverse .nav > li.current-user > a {
+	color: #7793ad !important;
+}
+.navbar-inverse .nav > li.current-user > a i {
+	display: inline-block;
+	text-align: center;
+	width: 1.25em;
+	color: #7793ad !important;
+	font-size: 12px;
+}
+.navbar-inverse .nav > li:hover > a, .navbar-inverse .nav > li:active > a {
+	color: #7793ad;
+	background: #3f4f62;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+	background: #3f4f62;
+	color: #7793ad;
+}
+
+.navbar-tools .dropdown-menu li .dropdown-menu-title {
+	background: #eaedf2;
+	color: #66878f;
+}
+.navbar-inverse .btn-navbar {
+	background-color: #D9D9D9;
+	background: -moz-linear-gradient(top, #34485e 0%, #283b52 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34485e), color-stop(100%,#283b52)); /* webkit */
+}
+
+.nav > li.dropdown .dropdown-toggle .badge {
+	background-color: #007AFF;
+	border: none;
+}
+.navbar-toggle {
+	background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #D9D9D9;
+	-moz-box-shadow: 0 0 15px #fff;
+	-webkit-box-shadow: 0 0 15px #fff;
+	box-shadow: 0px 0px 15px #fff;
+}
+.navbar-toggle span {
+	color: #999999;
+}
+
+ul.main-navigation-menu > li a {
+	border-bottom: none;
+	border-top-color: #7f95a8;
+	color: #d0d9e0;
+}
+ul.main-navigation-menu > li a > i {
+	color: #d0d9e0;
+	font-weight: normal;
+}
+ul.main-navigation-menu > li.active > a {
+	background: #36c6d3 !important;
+	border-top: none !important;
+	color: #fff;
+}
+ul.main-navigation-menu > li.active > a .selected:before {
+	color: #36c6d3 !important;
+}
+ul.main-navigation-menu > li.active > a i {
+	color:#fff;
+}
+ul.main-navigation-menu > li.open > a, ul.main-navigation-menu > li > a:hover, ul.main-navigation-menu > li:hover > a {
+	//background-color: #F5F5F5;
+}
+
+.navigation-toggler, .go-top {
+	background-color: #364150 !important;
+	color:#fff;
+}
+.navigation-toggler:hover i:first-child, .go-top:hover {
+	color: #555555;
+}
+.navigation-toggler:hover i:last-child {
+	color: #fff;
+}
+.navigation-small .navigation-toggler:hover i:first-child {
+	color: #b1b1b1;
+}
+.navigation-small .navigation-toggler:hover i:last-child {
+	color: #555555;
+}
+
+ul.main-navigation-menu li > ul.sub-menu > li.open > a, ul.main-navigation-menu li > ul.sub-menu > li.active > a, ul.main-navigation-menu li > ul.sub-menu > li > a:hover {
+	color: #d0d9e0 !important;
+	background: #3e4b5c !important;
+}
+.breadcrumb i {
+	color: #2b3643;
+}
+.breadcrumb a {
+	color: #364150;
+}
+.footer-fixed .footer {
+	background: rgba(255, 255, 255, 0.9) !important;
+	border-top-color: #C8C7CC;
+}
+/* ie8 fixes */
+.ie8 .footer-fixed .footer {
+	background: #ffffff;
+}
+/**/
+.footer-inner {
+	color: #d0d9e0;
+}
+
+.main-content .container {
+	border-left: 0px solid #d0d9e0;
+	border-bottom: 0px solid #d0d9e0;
+}
+
+
+ul.main-navigation-menu > li:not(.active):hover > a {
+    color: #d0d9e0;
+    background: #2b3643;
+    border-right: 0px solid #ddd;
+    border-top: 0px solid #ddd;
+}
+ul.main-navigation-menu > li.active:hover > a {color:white;}
+
+.navigation-small ul.main-navigation-menu > li > a .clip-chevron-right{
+display: none;
+}
+
+
+
+@media (max-width: 767px) {
+	.navbar-inverse {
+		background: none !important;
+	}
+	.navbar-tools {
+		background: rgba(255, 255, 255, 0.9);
+		border-top-color: #C8C7CC;
+	}
+	/* ie8 fixes */
+	.ie8 .navbar-tools {
+		background: #ffffff;
+	}
+/**/
+	.navbar-header {
+		background-color: #fff;
+	}
+}
+ul.main-navigation-menu: last-child{border-bottom: 0px solid gray !important;}

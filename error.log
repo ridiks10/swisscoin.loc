@@ -1,0 +1,18 @@
+[Tue Sep 06 13:33:00.146338 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP Fatal error:  Call to undefined function xmlrpc_encode_request() in /home/dev22/www/swisscoin.loc/backoffice/application/libraries/Moodle_api.php on line 44, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146394 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP Stack trace:, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146412 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   1. {main}() /home/dev22/www/swisscoin.loc/backoffice/index.php:0, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146421 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   2. require_once() /home/dev22/www/swisscoin.loc/backoffice/index.php:228, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146430 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   3. call_user_func_array() /home/dev22/www/swisscoin.loc/backoffice/system/core/CodeIgniter.php:359, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146439 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   4. Home->index() /home/dev22/www/swisscoin.loc/backoffice/system/core/CodeIgniter.php:359, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146448 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   5. validation_model->getMaxAcademyLevel() /home/dev22/www/swisscoin.loc/backoffice/application/controllers/user/home.php:55, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146457 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   6. Moodle_api->getUser() /home/dev22/www/swisscoin.loc/backoffice/application/models/validation_model.php:338, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:33:00.146465 2016] [:error] [pid 12669] [client 127.0.0.1:40935] PHP   7. Moodle_api->sendRequest() /home/dev22/www/swisscoin.loc/backoffice/application/libraries/Moodle_api.php:87, referer: http://swisscoin.loc/backoffice/login/verifylogin
+[Tue Sep 06 13:34:08.458299 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP Fatal error:  Call to undefined function xmlrpc_encode_request() in /home/dev22/www/swisscoin.loc/backoffice/application/libraries/Moodle_api.php on line 44
+[Tue Sep 06 13:34:08.458347 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP Stack trace:
+[Tue Sep 06 13:34:08.458361 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   1. {main}() /home/dev22/www/swisscoin.loc/backoffice/index.php:0
+[Tue Sep 06 13:34:08.458368 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   2. require_once() /home/dev22/www/swisscoin.loc/backoffice/index.php:228
+[Tue Sep 06 13:34:08.458375 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   3. call_user_func_array() /home/dev22/www/swisscoin.loc/backoffice/system/core/CodeIgniter.php:359
+[Tue Sep 06 13:34:08.458383 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   4. Home->index() /home/dev22/www/swisscoin.loc/backoffice/system/core/CodeIgniter.php:359
+[Tue Sep 06 13:34:08.458390 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   5. validation_model->getMaxAcademyLevel() /home/dev22/www/swisscoin.loc/backoffice/application/controllers/user/home.php:55
+[Tue Sep 06 13:34:08.458397 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   6. Moodle_api->getUser() /home/dev22/www/swisscoin.loc/backoffice/application/models/validation_model.php:338
+[Tue Sep 06 13:34:08.458403 2016] [:error] [pid 15589] [client 127.0.0.1:41061] PHP   7. Moodle_api->sendRequest() /home/dev22/www/swisscoin.loc/backoffice/application/libraries/Moodle_api.php:87

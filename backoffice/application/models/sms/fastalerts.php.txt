@@ -1,0 +1,16 @@
+<?php
+
+/* 
+You need the nusoap library bundled here, please extract it to lib/ 
+
+Set $username, $senderid, $password, $message, $numbers etc. to the 
+correct values.
+*/
+
+require_once('lib/nusoap.php');
+
+$api_path = "https://api.fastalerts.in/webservice/falertservicerevised.php?wsdl";
+$client = new soapclient1($api_path, true);
+$param = array('username'=>$username, 'senderid'=>$senderid, 'password'=>$password, 'message'=>$message, 'number'=>$numbers);
+
+$result = $client->call('SendSMS', $param, '', '', false, true);

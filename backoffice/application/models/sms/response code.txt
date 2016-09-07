@@ -1,0 +1,9 @@
+Response Code
+	
+Meaning
+404 			Database Not Found
+401 			Invalid Username or Password
+403 			No credits Available
+402,<SMS Count> 	Success fully Send , Number of SMS send
+
+ 

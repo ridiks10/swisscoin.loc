@@ -1,0 +1,1 @@
+<?php$sms_username = "abdulmajeedpk";$sms_password = "abdulmajeedpk";$sms_senderid = "MOBSPACE";//this will be for gsm numbers, you can set the cdma sender id in the website. GSM sender id should be max 11 chars$sms_api_path = "https://api.infinitesms.in/webservice/falertservicerevised.php?wsdl";

@@ -1,0 +1,29 @@
+.messagebox{
+	position:absolute;
+	width:100px;
+	margin-left:10px;
+	border:1px solid #c93;
+	background:#ffc;
+	padding:4px;
+}
+.messageboxok{
+	position:absolute;
+	width:auto;
+	margin-left:10px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	padding:4px;
+	font-weight:bold;
+	color:#008000;
+	
+}
+.messageboxerror{
+	position:absolute;
+	width:auto;
+	margin-left:10px;
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	padding:4px;
+	font-weight:bold;
+	color:#CC0000;
+}

@@ -1,0 +1,26 @@
+function addVendorDetails(f)
+{
+	var inc_type=f.inc_type.value;
+    
+    if(inc_type == "" ||inc_type == " " ||inc_type == "  " ||inc_type == "    ")
+        {
+            inlineMsg('inc_type','You must Enter  new expense...',4);
+            return false;
+        }
+	
+	var inc_type=f.inc_type.value;
+    
+    if(inc_type == "" ||inc_type == " " ||inc_type == "  " ||inc_type == "    ")
+        {
+            inlineMsg('inc_type','You must Enter  new expense...',4);
+            return false;
+        }
+	
+		
+	
+
+         return true;
+
+}
+
+
